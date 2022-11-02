@@ -2,7 +2,7 @@ import streamlit as st
 import sqlite3
 import pandas as pd
 
-con = sqlite3.connect("./data/Db.db")
+con = sqlite3.connect("./Db.db")
 
 df = pd.read_sql_query("Select * From Vehiculos", con)
 df1 = pd.read_sql_query("Select * From Precios", con)
