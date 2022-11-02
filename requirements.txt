@@ -1,4 +1,4 @@
-Streamlite=1.14
-Pandas 1.5.1
+streamlit=1.14
+pandas 1.5.1
 
 
